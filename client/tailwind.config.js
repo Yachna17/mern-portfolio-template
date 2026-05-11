@@ -1,0 +1,43 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        accent: 'var(--accent)',
+        'accent-hover': 'var(--accent-hover)',
+        'accent-dim': 'var(--accent-dim)',
+        'accent-glow': 'var(--accent-glow)',
+        'bg-base': 'var(--bg)',
+        'bg-card': 'var(--bg-card)',
+        'bg-alt': 'var(--bg-alt)',
+        'border-base': 'var(--border)',
+        'border-mid': 'var(--border-mid)',
+        t1: 'var(--t1)',
+        t2: 'var(--t2)',
+        t3: 'var(--t3)',
+        'admin-bg': 'var(--admin-bg)',
+        'admin-bg-card': 'var(--admin-bg-card)',
+        'admin-bg-hover': 'var(--admin-bg-hover)',
+        'admin-border': 'var(--admin-border)',
+        'admin-border-mid': 'var(--admin-border-mid)',
+        'admin-t1': 'var(--admin-text-1)',
+        'admin-t2': 'var(--admin-text-2)',
+        'admin-t3': 'var(--admin-text-3)',
+        'admin-accent': 'var(--admin-accent)',
+        'admin-accent-dim': 'var(--admin-accent-dim)',
+        'admin-accent-hover': 'var(--admin-accent-hover)',
+        'admin-danger': 'var(--admin-danger)',
+        'admin-danger-dim': 'var(--admin-danger-dim)',
+        'admin-success': 'var(--admin-success)',
+      },
+      fontFamily: {
+        head: ['Plus Jakarta Sans', 'sans-serif'],
+        body: ['Inter', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+      },
+    },
+  },
+  plugins: [],
+}
