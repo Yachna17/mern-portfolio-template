@@ -4,7 +4,7 @@ A full-stack portfolio template built with the MERN stack — works for develope
 
 **[Live Demo →](https://www.yachna.cv/)**
 
-![Preview](https://placehold.co/1200x600/0a0808/f5f0f1?text=Preview)
+![Preview](https://github.com/user-attachments/assets/0efc7e73-f2f7-4dd2-97bf-7e54169f148e)
 
 ---
 
